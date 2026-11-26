@@ -1,4 +1,14 @@
 FROM php:8.2-cli
+RUN apt update                              && \
+    apt -y upgrade                          && \
+    apt install -y gpg-agent                && \
+    apt install -y vim                      && \
+    apt install -y tree                     && \
+    apt install -y less                     && \
+    apt install -y gawk                     && \
+    apt install -y unzip                    && \
+    echo done
+
 
 # RUN echo start                                      && \
 #     echo added                                                && \
