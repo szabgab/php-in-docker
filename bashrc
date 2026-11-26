@@ -118,6 +118,6 @@ fi
 
 export PATH="/home/ubuntu/.local/bin:$PATH"
 export PATH="/home/ubuntu/bin:$PATH"
-
+export PATH="/opt/vendor/bin/:$PATH"
 
 

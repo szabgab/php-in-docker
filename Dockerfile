@@ -31,6 +31,13 @@ RUN echo Install composer                                                       
     mv /home/ubuntu/composer.phar /home/ubuntu/bin/    && \
     echo done
 
+#RUN echo Install sculpin                                           && \
+#    /home/ubuntu/bin/composer.phar -V                        && \
+#    /home/ubuntu/bin/composer.phar config --no-plugins allow-plugins.sculpin/sculpin-theme-composer-plugin true && \
+#    /home/ubuntu/bin/composer.phar --no-interaction require sculpin/sculpin   && \
+#    echo done
+
+
 USER root
 WORKDIR /opt
 
