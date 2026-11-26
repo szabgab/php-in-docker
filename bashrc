@@ -117,6 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="/home/ubuntu/.local/bin:$PATH"
+export PATH="/home/ubuntu/bin:$PATH"
 
 
 
